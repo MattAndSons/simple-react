@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  title: Matt Try Launch Coder
+  name: matt-try-launch-coder
+  tags:
+    - helm
+    - kubernetes
+    - react
+    - typescript
+    - vite
+    - coder
+  annotations:
+    swf-backstage-dev.com/template-source-url: https://gitlab.dev.swf-backstage-dev.com/devex-portal/templates/simple-react-template/-/blob/0.1.0/
+    swf-backstage-dev.com/template-source-name: simple-react-app
+    backstage.io/kubernetes-namespace: matt-try-launch-coder
+    backstage.io/kubernetes-label-selector: app.kubernetes.io/component=matt-try-launch-coder
+  links:
+    - url: https://gitlab.dev.swf-backstage-dev.com/devex-portal/templates/simple-react-template/-/blob/0.1.0/
+      title: Template Source Url
+      type: templates
+spec:
+  type: website
+  lifecycle: experimental
+  owner: group:default/devex-team
