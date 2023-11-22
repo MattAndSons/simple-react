@@ -11,6 +11,7 @@ metadata:
     - vite
     - coder
   annotations:
+    github.com/project-slug: MattAndSons/simple-react
     swf-backstage-dev.com/template-source-url: https://gitlab.dev.swf-backstage-dev.com/devex-portal/templates/simple-react-template/-/blob/0.1.0/
     swf-backstage-dev.com/template-source-name: simple-react-app
     backstage.io/kubernetes-namespace: matt-try-launch-coder
