@@ -16,8 +16,8 @@ metadata:
     swf-backstage-dev.com/template-source-name: simple-react-app
     backstage.io/kubernetes-namespace: matt-try-launch-coder
     backstage.io/kubernetes-label-selector: app.kubernetes.io/component=matt-try-launch-coder
-    vault.io/secrets-path: admin
-    vault.io/secrets-engine: v1/kv/data
+    vault.io/secrets-path: v1/kv/data/admin
+    vault.io/secrets-engine: kv
   links:
     - url: https://gitlab.dev.swf-backstage-dev.com/devex-portal/templates/simple-react-template/-/blob/0.1.0/
       title: Template Source Url
